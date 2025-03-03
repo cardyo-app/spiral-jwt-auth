@@ -1,0 +1,25 @@
+{
+    "name": "cardyo/spiral-jwt-auth",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cardyo\\SpiralJwtAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonid Meleshin",
+            "email": "hello@leon0399.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "spiral/core": "^3.15",
+        "web-token/jwt-library": "^4.0",
+        "spiral/boot": "^3.15"
+    },
+    "require-dev": {
+        "nesbot/carbon": "^3.8"
+    }
+}
